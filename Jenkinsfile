@@ -8,7 +8,7 @@ pipeline{
     {
       steps{
         echo 'Building the application...'
-        echo 'Building version ${env.NEW_VERSION}'
+        echo "Building version ${env.NEW_VERSION}"
       }
     }
     
